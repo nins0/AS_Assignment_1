@@ -24,6 +24,7 @@ function ShowHidePassword() {
     }
     #table{
         font-family: 'Noto Serif SC', serif;
+        background-color: #D1E8E2;
     }
 
     .auto-style2 {
@@ -34,7 +35,7 @@ function ShowHidePassword() {
     }
 
 </style>
-    <p style="font-family: 'Noto Serif SC', serif; font-size:large; text-align:center;">
+    <p style="font-family: 'Noto Serif SC', serif; font-size:x-large; text-align:center; background-color: #D1E8E2;">
         <br />
         Change Password</p>
  

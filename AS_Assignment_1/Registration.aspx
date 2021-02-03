@@ -21,13 +21,13 @@
     }
     #register{
        font-family: 'Noto Serif SC', serif;
-    }
+        background-color: #D1E8E2;
 
 </style>
     <div id="register">
     <p>
         &nbsp;</p>
-    <p style="text-align:center; font-size:xx-large " >
+    <p style="text-align:center; font-size:x-large " >
         <b>Registration</b><br />
     </p>
     <p>
