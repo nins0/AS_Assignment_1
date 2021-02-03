@@ -33,7 +33,7 @@
     <p>
         <table style="width: 1224px;">
             <tr>
-                <td style="text-align:right; padding-right: 100px;">
+                <td style="text-align:right; padding-right: 50px;">
         <asp:Label ID="lbl_f_name" runat="server" Text="First Name"></asp:Label>
                 </td>
                 <td style="height: 22px; width: 408px">
@@ -41,7 +41,7 @@
                 </td>
             </tr>
             <tr>
-                <td style="text-align:right; padding-right: 100px;">
+                <td style="text-align:right; padding-right: 50px;">
                     <asp:Label ID="lbl_l_name" runat="server" Text="Last Name"></asp:Label>
                 </td>
                 <td style="width: 408px">
@@ -49,7 +49,7 @@
                 </td>
             </tr>
             <tr>
-                <td style="text-align:right; padding-right: 100px;">
+                <td style="text-align:right; padding-right: 50px;">
                     <asp:Label ID="lbl_email" runat="server" Text="Email"></asp:Label>
                 </td>
                 <td style="width: 408px">
@@ -59,7 +59,7 @@
                 </td>
             </tr>
             <tr>
-                <td style="text-align:right; padding-right: 100px;">
+                <td style="text-align:right; padding-right: 50px;">
                     <asp:Label ID="lbl_dob" runat="server" Text="Date of Birth"></asp:Label>
                 </td>
                 <td style="width: 408px">
@@ -67,7 +67,7 @@
                 </td>
             </tr>
             <tr>
-                <td style="text-align:right; padding-right: 100px;">
+                <td style="text-align:right; padding-right: 50px;">
                     <asp:Label ID="lbl_card" runat="server" Text="Credit Card"></asp:Label>
                 </td>
                 <td style="width: 408px">
@@ -77,7 +77,7 @@
                 </td>
             </tr>
             <tr>
-                <td style="text-align:right; padding-right: 100px;">
+                <td style="text-align:right; padding-right: 50px;">
                     <asp:Label ID="lbl_pwd" runat="server" Text="Password" ></asp:Label>
                 </td>
                 <td style="height: 22px; width: 408px">

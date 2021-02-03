@@ -8,8 +8,16 @@
     <div id="page">
     <p style="color: #D70000">
         <br />
-&nbsp; Error : You cannot access your account because you have exceeded the limit of login attempts. Try again after 5 mins.</p>
+&nbsp; </p>
+        <p style="color: #D70000">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Error : You cannot access your account because you have exceeded the limit of login attempts. Try again after 5 mins.</p>
     <p style="color: #D70000">
         <asp:Timer ID="Timer" OnTick="Timer_Tick" runat="server" Interval="10000" /></p>
+        <p style="color: #D70000">
+            &nbsp;</p>
+        <p style="color: #D70000">
+            &nbsp;</p>
+        <p style="color: #D70000">
+            &nbsp;</p>
     </div>
 </asp:Content>

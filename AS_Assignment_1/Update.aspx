@@ -24,54 +24,62 @@ function ShowHidePassword() {
     }
     #table{
         font-family: 'Noto Serif SC', serif;
+        
+    }
+    #page{
         background-color: #D1E8E2;
     }
 
     .auto-style2 {
-        width: 1224px;
+        width: 1578px;
     }
-    .auto-style5 {
-        width: 408px;
+    .auto-style7 {
+        width: 526px;
+    }
+    .auto-style8 {
+        width: 526px;
+        height: 29px;
     }
 
 </style>
-    <p style="font-family: 'Noto Serif SC', serif; font-size:x-large; text-align:center; background-color: #D1E8E2;">
+<div id="page">
+    <p style="font-family: 'Noto Serif SC', serif; font-size:x-large; text-align:center;">
         <br />
         Change Password</p>
  
         <table id="table" class="auto-style2">
             <tr>
-                <td class="auto-style5" style="text-align:right;">&nbsp;</td>
-                <td style="text-align:center;" class="auto-style5">Email : <asp:Label ID="lbl_email" runat="server"></asp:Label></td>
-                <td style="text-align:left;" class="auto-style5">&nbsp;</td>
+                <td class="auto-style7" style="text-align:right;">&nbsp;</td>
+                <td style="text-align:center;" class="auto-style7">Email : <asp:Label ID="lbl_email" runat="server"></asp:Label></td>
+                <td style="text-align:left;" class="auto-style7">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style5" style="text-align:right;"><asp:Label ID="lbl_current_pwd" runat="server" Text="Current Password"></asp:Label></td>
-                <td style="text-align:center;" class="auto-style5"><asp:TextBox ID="tb_current_pwd" runat="server" Width="170px" TextMode="Password" ></asp:TextBox></td>
-                <td style="text-align:left;" class="auto-style5">&nbsp;</td>
+                <td class="auto-style7" style="text-align:right;"><asp:Label ID="lbl_current_pwd" runat="server" Text="Current Password"></asp:Label></td>
+                <td style="text-align:center;" class="auto-style7"><asp:TextBox ID="tb_current_pwd" runat="server" Width="170px" TextMode="Password" ></asp:TextBox></td>
+                <td style="text-align:left;" class="auto-style7">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style5" style="text-align:right;"><asp:Label ID="lbl_new_pwd" runat="server" Text="New Password"></asp:Label></td>
-                <td style="text-align:center;" class="auto-style5"><asp:TextBox ID="tb_new_pwd" runat="server" Width="170px" TextMode="Password" onkeyup="javascript:validation()" ></asp:TextBox></td>
-                <td style="text-align:left;" class="auto-style5"><asp:Label ID="lblerrorMsg0" runat="server"></asp:Label></td>
+                <td class="auto-style7" style="text-align:right;"><asp:Label ID="lbl_new_pwd" runat="server" Text="New Password"></asp:Label></td>
+                <td style="text-align:center;" class="auto-style7"><asp:TextBox ID="tb_new_pwd" runat="server" Width="170px" TextMode="Password" onkeyup="javascript:validation()" ></asp:TextBox></td>
+                <td style="text-align:left;" class="auto-style7"><asp:Label ID="lblerrorMsg0" runat="server"></asp:Label></td>
             </tr>
             <tr>
-                <td class="auto-style5" style="text-align:right;"><asp:Label ID="lbl_cfm_pwd" runat="server" Text="Comfirm Password"></asp:Label></td>
-                <td style="text-align:center;" class="auto-style5"><asp:TextBox ID="tb_cfm_pwd" runat="server" Width="170px" TextMode="Password" ></asp:TextBox></td>
-                <td class="auto-style5"><asp:Label ID="lblerrorMsg" runat="server" ></asp:Label></td>
+                <td class="auto-style7" style="text-align:right;"><asp:Label ID="lbl_cfm_pwd" runat="server" Text="Comfirm Password"></asp:Label></td>
+                <td style="text-align:center;" class="auto-style7"><asp:TextBox ID="tb_cfm_pwd" runat="server" Width="170px" TextMode="Password" ></asp:TextBox></td>
+                <td class="auto-style7"><asp:Label ID="lblerrorMsg" runat="server" ></asp:Label></td>
             </tr>
             <tr>
-                <td class="auto-style5">&nbsp;</td>
-                <td style="text-align:center;" class="auto-style5"><asp:CheckBox ID="cb_show_pwd_2" runat="server" Text="   Show Password" onclick="ShowHidePassword();"/></td>
-                <td class="auto-style5"><asp:Label ID="lblerrorMsg1" runat="server" ></asp:Label></td>
+                <td class="auto-style8"></td>
+                <td style="text-align:center;" class="auto-style8"><asp:CheckBox ID="cb_show_pwd_2" runat="server" Text="   Show Password" onclick="ShowHidePassword();"/></td>
+                <td class="auto-style8"><asp:Label ID="lblerrorMsg1" runat="server" ></asp:Label></td>
             </tr>
             <tr>
-                <td class="auto-style5">&nbsp;</td>
-                <td style="text-align:center;" class="auto-style5"><asp:Button ID="btn_change" runat="server" Text="Change Password" Width="122px" OnClick="btn_change_Click"/></td>
-                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
+                <td style="text-align:center;" class="auto-style7"><asp:Button ID="btn_change" runat="server" Text="Change Password" Width="140px" OnClick="btn_change_Click"/></td>
+                <td class="auto-style7">&nbsp;</td>
             </tr>
         </table>
-    
+</div>
     <script>
         function validation() {
             var str = document.getElementById('<%=tb_new_pwd.ClientID %>').value;
