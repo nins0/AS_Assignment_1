@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AS_Assignment_1", "AS_Assignment_1\AS_Assignment_1.csproj", "{BAC18531-3011-4CFC-993E-66F7C2EB8BC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB_Service_AS", "DB_Service_AS\DB_Service_AS.csproj", "{F31EBC46-2044-47CF-BBC1-4C3330D9EC53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAC18531-3011-4CFC-993E-66F7C2EB8BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC18531-3011-4CFC-993E-66F7C2EB8BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC18531-3011-4CFC-993E-66F7C2EB8BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC18531-3011-4CFC-993E-66F7C2EB8BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31EBC46-2044-47CF-BBC1-4C3330D9EC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31EBC46-2044-47CF-BBC1-4C3330D9EC53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31EBC46-2044-47CF-BBC1-4C3330D9EC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31EBC46-2044-47CF-BBC1-4C3330D9EC53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB73040E-DC0E-4EB6-B587-CB691F6DF0D8}
+	EndGlobalSection
+EndGlobal
