@@ -37,7 +37,7 @@ function ShowHidePassword() {
     <p style="font-family: 'Noto Serif SC', serif; font-size:large; text-align:center;">
         <br />
         Change Password</p>
-    <p>
+ 
         <table id="table" class="auto-style2">
             <tr>
                 <td class="auto-style5" style="text-align:right;">&nbsp;</td>
@@ -70,10 +70,11 @@ function ShowHidePassword() {
                 <td class="auto-style5">&nbsp;</td>
             </tr>
         </table>
-    </p>
+    
     <script>
         function validation() {
-            var str = document.getElementById('<%=tb_new_pwd.ClientID %>').value;            var checker = document.getElementById('<%=lblerrorMsg.ClientID %>');
+            var str = document.getElementById('<%=tb_new_pwd.ClientID %>').value;
+            var checker = document.getElementById('<%=lblerrorMsg.ClientID %>');
             if (str.length < 8) {
                 checker.innerHTML = "Password Length must be at least 8 characters";
                 checker.style.color = "Red";
