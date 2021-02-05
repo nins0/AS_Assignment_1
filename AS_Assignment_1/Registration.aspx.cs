@@ -115,6 +115,11 @@ namespace AS_Assignment_1
             {
                 lbl_inputchecker.Text = "Input cannot be empty";
                 lbl_inputchecker.ForeColor = Color.Red;
+                if (Regex.IsMatch(f_name, "[^A-Za-z0-9]")){
+                    lbl_inputchecker.Text = "Input cannot contain special characters.";
+                    lbl_inputchecker.ForeColor = Color.Red;
+                    return "fail";
+                }
                 return "fail";
             }
             else
@@ -316,6 +321,7 @@ namespace AS_Assignment_1
             if (UserExist > 0)
             {
                 //Username exist
+                lbl_emailchecker.Text = "Email id already exist.";
                 return "failed";
             }
             else
