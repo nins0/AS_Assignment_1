@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 
-<script src="">
+<script src="https://www.google.com/recaptcha/api.js?render=6LcUtUEaAAAAALcVkdTROCNmOq20k4pWWTROixHU">
 </script>
 
 
@@ -113,7 +113,7 @@
     </div>
     <script>
         grecaptcha.ready(function () {
-            grecaptcha.execute('', { action: 'Login' }).then(function (token) {
+            grecaptcha.execute('6LcUtUEaAAAAALcVkdTROCNmOq20k4pWWTROixHU', { action: 'Login' }).then(function (token) {
                 document.getElementById("g-recaptcha-response").value = token;
             });
         });
