@@ -150,7 +150,7 @@ namespace AS_Assignment_1
         {
             string cardNo = HttpUtility.HtmlEncode(tb_card.Text);
 
-            Regex regex = new Regex(@"^(1298|1267|4512|4567|8901|8933)([\-\s]?[0-9]{4}){3}$");
+            Regex regex = new Regex(@"^(3762|4119|4265|4524|5240|5400)([\-\s]?[0-9]{4}){3}$");
             bool isValidCard = regex.IsMatch(cardNo);
 
             if (!isValidCard)
