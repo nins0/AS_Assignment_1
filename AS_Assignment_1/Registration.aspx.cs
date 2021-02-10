@@ -111,7 +111,7 @@ namespace AS_Assignment_1
             string l_name = HttpUtility.HtmlEncode(tb_l_name.Text);
             string dob = HttpUtility.HtmlEncode(tb_dob.Text);
 
-            if(f_name == null && l_name == null && dob == null)
+            if(f_name == "" && l_name == "" && dob == "")
             {
                 lbl_inputchecker.Text = "Input cannot be empty";
                 lbl_inputchecker.ForeColor = Color.Red;
@@ -124,6 +124,7 @@ namespace AS_Assignment_1
             }
             else
             {
+                lbl_inputchecker.Text = "";
                 return "success";
             }
         }

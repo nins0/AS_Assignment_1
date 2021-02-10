@@ -19,9 +19,18 @@
     td{
         padding:5px;
     }
-    #register{
-       font-family: 'Noto Serif SC', serif;
+    #register {
+        font-family: 'Noto Serif SC', serif;
         background-color: #D1E8E2;
+    }
+
+    .auto-style2 {
+        height: 20px;
+        width: 325px;
+    }
+    .auto-style3 {
+        width: 325px;
+    }
 
 </style>
     <div id="register">
@@ -33,7 +42,7 @@
     <p>
         <table style="width: 1224px;">
             <tr>
-                <td style="text-align:right; padding-right: 50px;">
+                <td style="text-align:right; padding-right: 50px;" class="auto-style3">
         <asp:Label ID="lbl_f_name" runat="server" Text="First Name"></asp:Label>
                 </td>
                 <td style="height: 22px; width: 408px">
@@ -41,7 +50,7 @@
                 </td>
             </tr>
             <tr>
-                <td style="text-align:right; padding-right: 50px;">
+                <td style="text-align:right; padding-right: 50px;" class="auto-style3">
                     <asp:Label ID="lbl_l_name" runat="server" Text="Last Name"></asp:Label>
                 </td>
                 <td style="width: 408px">
@@ -49,7 +58,7 @@
                 </td>
             </tr>
             <tr>
-                <td style="text-align:right; padding-right: 50px;">
+                <td style="text-align:right; padding-right: 50px;" class="auto-style3">
                     <asp:Label ID="lbl_email" runat="server" Text="Email"></asp:Label>
                 </td>
                 <td style="width: 408px">
@@ -59,7 +68,7 @@
                 </td>
             </tr>
             <tr>
-                <td style="text-align:right; padding-right: 50px;">
+                <td style="text-align:right; padding-right: 50px;" class="auto-style3">
                     <asp:Label ID="lbl_dob" runat="server" Text="Date of Birth"></asp:Label>
                 </td>
                 <td style="width: 408px">
@@ -67,7 +76,7 @@
                 </td>
             </tr>
             <tr>
-                <td style="text-align:right; padding-right: 50px;">
+                <td style="text-align:right; padding-right: 50px;" class="auto-style3">
                     <asp:Label ID="lbl_card" runat="server" Text="Credit Card"></asp:Label>
                 </td>
                 <td style="width: 408px">
@@ -77,7 +86,7 @@
                 </td>
             </tr>
             <tr>
-                <td style="text-align:right; padding-right: 50px;">
+                <td style="text-align:right; padding-right: 50px;" class="auto-style3">
                     <asp:Label ID="lbl_pwd" runat="server" Text="Password" ></asp:Label>
                 </td>
                 <td style="height: 22px; width: 408px">
@@ -87,7 +96,7 @@
                 </td>
             </tr>
             <tr>
-                <td style="width: 408px">
+                <td class="auto-style3">
                     &nbsp;</td>
                 <td style="width: 408px">
                     <asp:CheckBox ID="cb_pwd" runat="server" Text="  Show Password" onclick="ShowHidePassword();"/>
@@ -96,28 +105,28 @@
                 </td>
             </tr>
             <tr>
-                <td style="width: 408px">&nbsp;</td>
+                <td class="auto-style3">&nbsp;</td>
                 <td style="width: 408px">
                     <asp:Label ID="lbl_inputchecker" runat="server"></asp:Label>
                 </td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
+                <td class="auto-style3">&nbsp;</td>
                 <td>
                     <asp:Button ID="btn_reg" runat="server" Text="Register" Width="174px" OnClick="btn_reg_Click" />
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 </td>
             </tr>
             <tr>
-                <td style="width: 408px; height: 20px"></td>
+                <td class="auto-style2"></td>
                 <td style="height: 20px; width: 408px"></td>
             </tr>
             <tr>
-                <td style="width: 408px">&nbsp;</td>
+                <td class="auto-style3">&nbsp;</td>
                 <td style="width: 408px">&nbsp;</td>
             </tr>
             <tr>
-                <td style="width: 408px">&nbsp;</td>
+                <td class="auto-style3">&nbsp;</td>
                 <td style="width: 408px">&nbsp;</td>
             </tr>
         </table>
