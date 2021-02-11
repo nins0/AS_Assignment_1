@@ -186,7 +186,7 @@ namespace AS_Assignment_1
 
             //To send a GET reponse to Google along with the response and Secret key.
             HttpWebRequest req = (HttpWebRequest)WebRequest.Create
-                ("https://www.google.com/recaptcha/api/siteverify?secret=6LcUtUEaAAAAAIxIH-cduCBF6rMACT1v_gx5lyHO &response=" + captchaResponse);
+                ("&response=" + captchaResponse);
             
 
             try
