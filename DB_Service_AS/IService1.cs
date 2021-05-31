@@ -28,6 +28,7 @@ namespace DB_Service_AS
         bool boolValue = true;
         string stringValue = "Hello ";
 
+
         [DataMember]
         public bool BoolValue
         {
